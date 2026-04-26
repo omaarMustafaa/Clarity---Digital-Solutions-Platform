@@ -1,0 +1,62 @@
+/* sm */
+@media screen and (min-width: 640px) {
+  #home .left-header button {
+    width: fit-content;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+  #home .left-header p {
+    font-size: 16px;
+  }
+}
+
+/* large */
+@media screen and (min-width: 992px) {
+  #home .left-header h1 {
+    font-size: 53px;
+  }
+  #home .right-header .phone {
+    width: 70px;
+    height: 70px;
+  }
+  #home .right-header .code {
+    width: 74px;
+    height: 74px;
+  }
+}
+
+/* Xl */
+@media screen and (min-width: 1280px) {
+  #home .left-header span {
+    font-size: 16px;
+  }
+
+  #home .left-header h1 {
+    font-size: 60px;
+  }
+  #home .left-header button {
+    padding: 16px 40px;
+    font-size: 18px;
+  }
+  #home .left-header .stat span {
+    font-size: 30px;
+  }
+
+  #home .left-header .stat p {
+    font-size: 16px;
+  }
+  #home .right-header .phone {
+    width: 80px;
+    height: 80px;
+  }
+  #home .right-header .code {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+/* XXL */
+@media screen and (min-width: 1636px) {
+}
