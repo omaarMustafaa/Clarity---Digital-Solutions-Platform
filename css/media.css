@@ -25,6 +25,9 @@
     width: 74px;
     height: 74px;
   }
+  .header-section h2{
+    font-size: 42px;
+  }
 }
 
 /* Xl */
@@ -54,6 +57,18 @@
   #home .right-header .code {
     width: 96px;
     height: 96px;
+  }
+  .header-section span{
+    font-size: 14px;
+  }
+  .header-section h2{
+    font-size: 48px;
+  }
+  .header-section p{
+    font-size: 16px;
+  }
+  #start-journey .start-journey-header h2{
+    font-size: 72px;
   }
 }
 

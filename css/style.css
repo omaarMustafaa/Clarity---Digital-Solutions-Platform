@@ -5,17 +5,17 @@
   font-style: normal;
 }
 
-body{
+body {
   font-family: "Inter";
 }
 
 :root {
   --section-padding: 100px;
   --main-color: #ea580c;
-  --bg-section: linear-gradient(to top left,#FFF8EF,#FFFFFD);;
+  --bg-section: linear-gradient(to top left, #fff8ef, #fffffd);
   --header-color: #7c2d12;
   --text-color: #4c5564;
-  --transition: all 0.3s ;
+  --transition: all 0.3s;
 }
 
 ::-moz-selection {
@@ -38,33 +38,66 @@ body {
   overflow-x: clip;
 } */
 
+/* End Global Header Text Section */
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.header-section span {
+  background-color: #fdeadf;
+  color: var(--main-color);
+  font-size: 12px;
+  font-weight: 500;
+}
+.header-section h2 {
+  font-weight: 900;
+  font-size: 26px;
+  background: linear-gradient(to right, #7c2d12 15%, #e06a2c, #c45724);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-section h2 span {
+  background-color: inherit;
+  font-size: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.header-section p {
+  max-width: 560px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+/* Start Global Header Text Section */
 
 /* Start Home Section */
-#home{
+#home {
   padding-block: var(--section-padding);
-  background: var(--bg-section)
+  background: var(--bg-section);
 }
 
-#home .left-header span{
-  background-color: #FDEADF;
+#home .left-header span {
+  background-color: #fdeadf;
   color: var(--main-color);
   font-size: 12px;
 }
 
-#home .left-header h1{
+#home .left-header h1 {
   font-size: 32px;
-  background: linear-gradient(
-    to bottom,
-    #E06A2C,
-    #7A2E1A,
-    #C45724
-  );
+  background: linear-gradient(to bottom, #e06a2c, #7a2e1a, #c45724);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#home .left-header .span{
+#home .left-header .span {
   background-color: inherit;
   color: inherit;
   font-size: inherit;
@@ -73,17 +106,17 @@ body {
   display: block;
 }
 
-#home .left-header p{
+#home .left-header p {
   max-width: 545px;
   font-weight: 400;
   line-height: 28px;
   color: var(--text-color);
   font-size: 14px;
 }
-#home .left-header .btns{
+#home .left-header .btns {
   margin-bottom: 32px;
 }
-#home .left-header button{
+#home .left-header button {
   padding: 14px 21px;
   font-size: 16px;
   font-weight: 600;
@@ -92,29 +125,29 @@ body {
   color: var(--text-color);
   border: none;
 }
-#home .left-header .btns .btn-start{
-  background :linear-gradient(to left ,#C5430C, #E7560D);
+#home .left-header .btns .btn-start {
+  background: linear-gradient(to left, #c5430c, #e7560d);
   transition: var(--transition) ease-in-out;
 }
 
-#home .left-header .btns .btn-start:hover{
+#home .left-header .btns .btn-start:hover {
   transform: translateY(-6px);
-  box-shadow: 0px 10px 20px  0px var(--main-color);
+  box-shadow: 0px 10px 20px 0px var(--main-color);
 }
 
-#home .left-header .btns .btn-end{
+#home .left-header .btns .btn-end {
   transition: var(--transition);
   background-color: inherit;
-  border: 2px solid #D2D5DB;
+  border: 2px solid #d2d5db;
 }
 
-#home .left-header .btns .btn-end:hover{
+#home .left-header .btns .btn-end:hover {
   color: var(--main-color);
   border-color: var(--main-color);
 }
 
-#home .left-header .stat span{
-  background-color: #FFFFFE;
+#home .left-header .stat span {
+  background-color: #fffffe;
   color: var(--main-color);
   font-size: 26px;
 }
@@ -125,7 +158,7 @@ body {
   font-weight: 400;
 }
 
-#home .right-header{
+#home .right-header {
   width: 75%;
   margin-inline: auto;
   padding: 30px;
@@ -133,37 +166,116 @@ body {
   position: relative;
 }
 
-#home .right-header::before{
+#home .right-header::before {
   position: absolute;
   content: "";
   inset: 0;
-  background-color: #FCDCD0;
+  background-color: #fcdcd0;
   border-radius: 15px;
   transform: rotate(3deg);
   z-index: -1;
 }
 
-#home .right-header .phone{
+#home .right-header .phone {
   width: 63px;
   height: 63px;
   font-size: 20px;
-  background-color: #7A2E1A;
+  background-color: #7a2e1a;
   position: absolute;
   bottom: -20px;
   left: -20px;
-  background :linear-gradient(to top right ,#C9450C, #E2530A);
+  background: linear-gradient(to top right, #c9450c, #e2530a);
 }
-#home .right-header .code{
+#home .right-header .code {
   width: 75px;
   height: 75px;
   font-size: 20px;
-  background-color: #7A2E1A;
+  background-color: #7a2e1a;
   position: absolute;
   top: -20px;
   right: -20px;
-  background-color: #D64C0D;
+  background-color: #d64c0d;
+}
+
+/* End Home Section */
+
+/* Start Services Section */
+#services {
+  padding-block: var(--section-padding);
+}
+/* End Services Section */
+
+
+/* End Technology Section */
+#technology {
+  padding-block: var(--section-padding);
+}
+
+#technology .technology-header h2 {
+  background: linear-gradient(to right, #7c2d12 35%, #e06a2c, #c45724);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#technology .technology-header p {
+  max-width: 600px;
+}
+/* End Technology Section */
+
+
+/* End Client Section */
+#client {
+  padding-block: var(--section-padding);
+}
+
+#client .client-header h2 {
+  background: linear-gradient(to right, #7c2d12 38%, #e06a2c, #c45724);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#client .client-header p {
+  max-width: 600px;
+}
+/* End Client Section */
+
+
+/* End FAQ Section */
+#FAQ {
+  padding-block: var(--section-padding);
+}
+
+#FAQ .Faq-header h2 {
+  background: linear-gradient(to right, #7c2d12 55%, #e06a2c, #c45724);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#FAQ .Faq-header p {
+  max-width: 605px;
+}
+/* End FAQ Section */
+
+
+/* End Start Your Journey Section */
+#start-journey {
+  padding-block: var(--section-padding);
+}
+
+#start-journey .start-journey-header h2 {
+  background: linear-gradient(to top,  #e06a2c, #c45724 ,#7c2d12 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#start-journey .start-journey-header p {
+  max-width: 590px;
 }
 
 
 
-/* End Home Section */
+/* End Start Your Journey Section */
