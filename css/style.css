@@ -203,20 +203,20 @@ body {
 }
 
 #services .content {
-  border: #F6F7F8 solid 2px;
+  border: #f6f7f8 solid 2px;
   transition: var(--transition) ease-in-out;
 }
 
 #services .content:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 0px 15px rgba(234, 88, 12,0.2)
+  box-shadow: 0px 0px 15px rgba(234, 88, 12, 0.2);
 }
 
-#services .content:hover  .logo {
+#services .content:hover .logo {
   transform: scale(1.1);
-} 
+}
 
-#services .content:hover .learn-more i{
+#services .content:hover .learn-more i {
   margin-left: 10px;
 }
 
@@ -228,7 +228,8 @@ body {
   transition: var(--transition) ease-in-out;
 }
 
-#services .content span ,#services .content p {
+#services .content span,
+#services .content p {
   color: var(--text-color);
   font-weight: 400;
   font-size: 14px;
@@ -237,25 +238,23 @@ body {
   color: var(--main-color);
 }
 
-#services .content h3{
+#services .content h3 {
   color: #7c2d12;
   font-size: 18px;
   font-weight: 700;
 }
 
-#services .content .learn-more{
+#services .content .learn-more {
   color: var(--main-color);
   font-weight: 600;
   font-size: 14px;
 }
-#services .content .learn-more i{
+#services .content .learn-more i {
   margin-left: 5px;
   transition: var(--transition) ease-in-out;
 }
 
-
 /* End Services Section */
-
 
 /* End Technology Section */
 #technology {
@@ -272,8 +271,315 @@ body {
 #technology .technology-header p {
   max-width: 600px;
 }
-/* End Technology Section */
 
+#technology ul button {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 600;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 7px 14px;
+}
+#technology .nav-tabs .nav-link.active,
+#technology .nav-tabs .nav-link:hover {
+  color: var(--main-color) !important ;
+  border-color: var(--main-color);
+  border: 0px;
+  border-bottom: 2px solid var(--main-color);
+}
+
+#technology .headTabs h3 {
+  color: #7c2d12;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+#technology p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#technology h4 {
+  color: #7c2d12;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#technology .logo {
+  width: 54px;
+  height: 54px;
+  font-size: 14px;
+}
+
+#technology span {
+  padding: 3.5px 10.5px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+#technology .col-hover {
+  transition: var(--transition) ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#technology .col-hover:hover {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+/* React  & Python & React Native &Microsoft & Docker & PostgreSQL & GraphQL*/
+#technology .React,
+#technology .Python,
+#technology .Native,
+#technology .Microsoft,
+#technology .Docker,
+#technology .PostgreSQL,
+#technology .GraphQL {
+  background-color: #ecf3fe;
+}
+#technology .React .logo,
+#technology .Python .logo,
+#technology .Native .logo,
+#technology .Microsoft .logo,
+#technology .Docker .logo,
+#technology .PostgreSQL .logo,
+#technology .GraphQL .logo {
+  background-color: #2b7fff;
+  color: #fff;
+}
+
+#technology .GraphQL .logo {
+  background-color: #4f39f6;
+}
+
+#technology .React span,
+#technology .Python span,
+#technology .Native span,
+#technology .Microsoft span,
+#technology .Docker span,
+#technology .PostgreSQL span,
+#technology .GraphQL span {
+  background-color: #dbeafe;
+  color: #193cb8;
+}
+
+/* Next & iOS & Pipeline*/
+#technology .Next,
+#technology .iOS,
+#technology .Pipeline {
+  background-color: #f8f9fa;
+}
+#technology .Next .logo,
+#technology .iOS .logo,
+#technology .Pipeline .logo {
+  background-color: black;
+  color: #fff;
+}
+
+#technology .Pipeline .logo {
+  background-color: #364152;
+}
+
+#technology .Next span,
+#technology .iOS span,
+#technology .Pipeline span {
+  background-color: #f3f4f6;
+  color: #000;
+}
+
+/* Vue & Android Native  & MongoDB*/
+#technology .Vue,
+#technology .Android,
+#technology .MongoDB {
+  background-color: #e8fdef;
+}
+#technology .Vue .logo,
+#technology .Android .logo,
+#technology .MongoDB .logo {
+  background-color: #00c950;
+  color: #fff;
+}
+#technology .Vue span,
+#technology .Android span,
+#technology .MongoDB span {
+  background-color: #eafef0;
+  color: #016730;
+}
+
+#technology .MongoDB .logo {
+  font-weight: 700;
+  background-color: #008236;
+}
+
+/* Angular & PWA &Amazon */
+#technology .Angular,
+#technology .PWA,
+#technology .Amazon {
+  background-color: #fff5e6;
+}
+#technology .Angular .logo,
+#technology .PWA .logo,
+#technology .Amazon .logo {
+  background-color: #ff6900;
+  color: #fff;
+}
+#technology .Angular span,
+#technology .PWA span,
+#technology .Amazon span {
+  background-color: #ffecd4;
+  color: #963615;
+}
+
+/* Tailwind & Flutter*/
+#technology .Tailwind,
+#technology .Flutter {
+  background-color: #e6fdff;
+}
+#technology .Tailwind .logo,
+#technology .Flutter .logo {
+  background-color: #00b8db;
+  color: #fff;
+}
+#technology .Tailwind span,
+#technology .Flutter span {
+  background-color: #cefafe;
+  color: #275d76;
+}
+
+/* Vite & Xamarin & Kubernetes &TElasticsearch*/
+#technology .Vite,
+#technology .Xamarin,
+#technology .Kubernetes,
+#technology .TElasticsearch {
+  background-color: #f8f2ff;
+}
+#technology .Vite .logo,
+#technology .Xamarin .logo,
+#technology .Kubernetes .logo,
+#technology .TElasticsearch .logo {
+  background-color: #ad47ff;
+  color: #fff;
+}
+
+#technology .Kubernetes .logo {
+  font-weight: 700;
+}
+
+#technology .Vite span,
+#technology .Xamarin span,
+#technology .Kubernetes span,
+#technology .TElasticsearch span {
+  background-color: #f3e8ff;
+  color: #6d11b0;
+}
+
+/* Node.js */
+#technology .Node {
+  background-color: #ebfdf0;
+}
+#technology .Node .logo {
+  background-color: #00a63e;
+  color: #fff;
+}
+#technology .Node span {
+  background-color: #dcfce6;
+  color: #2b6536;
+}
+
+/* Golang & Redis */
+#technology .Golang,
+#technology .Redis {
+  background-color: #feedee;
+}
+#technology .Golang .logo,
+#technology .Redis .logo {
+  background-color: #e7000b;
+  color: #fff;
+  font-weight: 700;
+}
+
+#technology .Redis .logo {
+  background-color: #c10008;
+}
+
+#technology .Golang span,
+#technology .Redis span {
+  background-color: #ffe2e1;
+  color: #9e0812;
+}
+
+/* Java */
+#technology .Java {
+  background-color: #f8f2ff;
+}
+#technology .Java .logo {
+  background-color: #9810fa;
+  color: #fff;
+}
+#technology .Java span {
+  background-color: #f3e8ff;
+  color: #641aa9;
+}
+
+/* NET */
+#technology .NET {
+  background-color: #ebf0ff;
+}
+#technology .NET .logo {
+  background-color: #4f39f6;
+  color: #fff;
+  font-weight: 700;
+}
+#technology .NET span {
+  background-color: #dfe7ff;
+  color: #3146c8;
+}
+
+/* Ruby */
+#technology .Ruby {
+  background-color: #e8fdf8;
+}
+#technology .Ruby .logo {
+  background-color: #009689;
+  color: #fff;
+  font-weight: 700;
+}
+#technology .Ruby span {
+  background-color: #cbfbf1;
+  color: #006059;
+}
+
+/* Google Cloud */
+#technology .Google {
+  background-color: #fef1f1;
+}
+#technology .Google .logo {
+  background-color: #fa2c37;
+  color: #fff;
+}
+#technology .Google span {
+  background-color: #ffe2e1;
+  color: #a90210;
+}
+
+/* MySQL  */
+#technology .MySQL {
+  background-color: #fefcdf;
+}
+#technology .MySQL .logo {
+  background-color: #d18700;
+  color: #fff;
+}
+#technology .MySQL span {
+  background-color: #fffbd0;
+  color: #884b00;
+}
+
+/* End Technology Section */
 
 /* End Client Section */
 #client {
@@ -292,7 +598,6 @@ body {
 }
 /* End Client Section */
 
-
 /* End FAQ Section */
 #FAQ {
   padding-block: var(--section-padding);
@@ -310,14 +615,13 @@ body {
 }
 /* End FAQ Section */
 
-
 /* End Start Your Journey Section */
 #start-journey {
   padding-block: var(--section-padding);
 }
 
 #start-journey .start-journey-header h2 {
-  background: linear-gradient(to top,  #e06a2c, #c45724 ,#7c2d12 80%);
+  background: linear-gradient(to top, #e06a2c, #c45724, #7c2d12 80%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -326,7 +630,5 @@ body {
 #start-journey .start-journey-header p {
   max-width: 590px;
 }
-
-
 
 /* End Start Your Journey Section */

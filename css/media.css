@@ -10,6 +10,10 @@
   #home .left-header p {
     font-size: 16px;
   }
+  #technology ul button {
+    font-size: 16px;
+    padding: 14px 24px;
+  }
 }
 
 /* large */
@@ -71,11 +75,37 @@
     font-size: 72px;
   }
   #services .content span,
-  #services .content p ,#services .content .learn-more {
+  #services .content p,
+  #services .content .learn-more {
     font-size: 16px;
   }
   #services .content h3 {
     font-size: 20px;
+  }
+  #technology ul button {
+    font-size: 18px;
+    padding: 16px 32px;
+  }
+
+  #technology .headTabs h3 {
+    font-size: 24px;
+  }
+
+  #technology p {
+    font-size: 16px;
+  }
+  #technology h4 {
+    font-size: 20px;
+  }
+
+  #technology .logo {
+    width: 64px;
+    height: 64px;
+    font-size: 16px;
+  }
+
+  #technology span {
+    padding: 4px 12px;
   }
 }
 
