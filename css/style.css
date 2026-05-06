@@ -584,6 +584,8 @@ body {
 /* End Client Section */
 #client {
   padding-block: var(--section-padding);
+  /* background: linear-gradient(to top left ,#FEF7ED ,#F9FAFB); */
+  background-color: teal;
 }
 
 #client .client-header h2 {
@@ -596,6 +598,93 @@ body {
 #client .client-header p {
   max-width: 600px;
 }
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+}
+
+#client .carousel-indicators button {
+  background-color: #d2d5db;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+#client .carousel-indicators button:hover {
+  background-color: #f5aa8a;
+  width: 32px;
+  height: 8px;
+  transition: all 0.4s ease-in-out;
+}
+
+#client .carousel-indicators button.active {
+  background-color: red !important;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+#client .carousel-item .logo {
+  color: var(--main-color);
+  width: 64px;
+  height: 64px;
+  background-color: #fbede8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+#client .carousel-item .rate {
+  font-size: 16px;
+}
+
+#client .carousel-item .rate span {
+  color: var(--text-color);
+}
+
+#client .carousel-item .Verified {
+  color: var(--main-color);
+}
+
+#client .carousel-item .Verified p {
+  background-color: #faece8;
+  padding: 5px 15px;
+  width: fit-content;
+  font-size: 16px;
+}
+
+#client .carousel-item .Verified span {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 14px;
+  padding: 3px;
+}
+
+#client .carousel-item p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: #F5F6F7 2px solid;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
 /* End Client Section */
 
 /* End FAQ Section */
